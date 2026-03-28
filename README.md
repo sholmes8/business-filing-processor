@@ -8,7 +8,6 @@
 ---
 
 ## 📌 Project Overview
-
 This project analyzes a business filing workflow and redesigns it into a structured, scalable system.
 
 The focus is on identifying inefficiencies in manual processes and transforming them into a modern workflow that improves **accuracy, visibility, and operational efficiency**.
@@ -18,7 +17,6 @@ This project demonstrates the ability to bridge **business processes and technic
 ---
 
 ## 🎯 Objectives
-
 - Analyze an existing filing workflow and identify inefficiencies  
 - Design an optimized “To-Be” system model  
 - Define functional and non-functional requirements  
@@ -28,7 +26,6 @@ This project demonstrates the ability to bridge **business processes and technic
 ---
 
 ## 🧩 Problem
-
 Manual filing workflows often result in:
 
 - High rejection and resubmission rates  
@@ -40,7 +37,6 @@ Manual filing workflows often result in:
 ---
 
 ## 💡 Solution
-
 Designed a centralized workflow system with:
 
 - Standardized intake and processing stages  
@@ -54,59 +50,70 @@ Designed a centralized workflow system with:
 ## 🔄 Workflow Design
 
 ### As-Is Workflow
-- Manual intake and review  
-- Spreadsheet/email-based tracking  
-- Reactive error handling  
-- Limited reporting visibility  
+![As-Is Workflow](visuals/as-is-workflow.png)
 
 ### To-Be Workflow
-- Centralized filing system  
-- Automated validation rules  
-- Real-time status tracking  
-- Structured rejection categorization  
-- Dashboard-ready reporting system  
+![To-Be Workflow](visuals/to-be-workflow.png)
 
 ---
 
-## 📂 Deliverables
-
-- `visuals/as-is-workflow.png` – current workflow model  
-- `visuals/to-be-workflow.png` – optimized system design  
-- `docs/system-requirements-document.docx` – system requirements  
+## 📂 Project Deliverables
+- `docs/system-requirements-document.docx` – system requirements documentation  
 - `docs/user-stories-backlog.xlsx` – backlog and user stories  
+- `visuals/as-is-workflow.png` – current-state workflow diagram  
+- `visuals/to-be-workflow.png` – improved workflow diagram  
+
+---
+
+## ⚙️ System Design Approach
+This project follows core **SDLC** practices:
+
+1. **Requirement Analysis**  
+   - Identified workflow inefficiencies  
+   - Defined business and system needs  
+
+2. **System Design**  
+   - Created improved workflow structure  
+   - Standardized processing stages  
+
+3. **Planning & Backlog Creation**  
+   - Developed user stories  
+   - Prioritized implementation tasks  
+
+4. **Process Optimization**  
+   - Reduced bottlenecks  
+   - Improved workflow clarity and consistency  
 
 ---
 
 ## 📊 Key Improvements
-
 - Reduced workflow ambiguity through standardized process design  
-- Improved tracking visibility across filing lifecycle  
-- Minimized errors through validation rules  
-- Enabled reporting through structured data flow  
-- Transformed manual process into system-ready architecture  
+- Improved visibility into filing lifecycle and ownership  
+- Minimized errors through validation-oriented workflow redesign  
+- Enabled stronger reporting through clearer workflow structure  
+- Translated a manual process into an implementation-ready system model  
 
 ---
 
-## ⚙️ System Features
+## 📋 System Features
 
-### Functional
-- Filing intake and data capture  
+### Functional Features
+- Filing intake and record creation  
 - Document upload and versioning  
 - Validation of required fields  
 - Status tracking and audit logs  
 - Rejection categorization  
 - Reporting and metrics  
 
-### Non-Functional
-- Scalable system design  
+### Non-Functional Features
+- Scalable workflow design  
 - Data integrity and traceability  
-- Consistent workflow structure  
+- Consistent process structure  
 - Maintainable architecture  
 
 ---
 
 ## 🧠 Skills Demonstrated
-
 - Systems Analysis & Design  
 - SDLC (Software Development Life Cycle)  
 - Workflow Optimization  
@@ -117,27 +124,24 @@ Designed a centralized workflow system with:
 ---
 
 ## 💻 Technical Perspective
-
 This project demonstrates how business workflows can be translated into technical systems.
-
 The design supports implementation as a full-stack application:
 
-- **Backend:** Workflow processing & validation (Node.js / Python)  
-- **Database:** Filing, document, and status tracking (SQL)  
-- **Frontend:** Intake and tracking interface (React)  
-- **API Layer:** Workflow and reporting endpoints  
+- **Backend:** workflow processing and validation  
+- **Database:** filing, document, and status tracking  
+- **Frontend:** intake and tracking interface  
+- **API Layer:** workflow and reporting endpoints  
 
 ---
 
 ## 🔧 API Design (Conceptual)
-The proposed system can be implemented using a RESTful API to manage filing workflows, validation, and tracking.
 
 ```http
-POST   /api/filings           # Create filing
-GET    /api/filings/{id}      # Get filing status
-PUT    /api/filings/{id}/status  # Update status
-POST   /api/filings/{id}/validate # Validate filing
-GET    /api/reports           # Retrieve metrics
+POST   /api/filings
+GET    /api/filings/{id}
+PUT    /api/filings/{id}/status
+POST   /api/filings/{id}/validate
+GET    /api/reports
 ```
 This API structure demonstrates how the workflow system can be translated into a scalable backend service.
 
@@ -191,11 +195,11 @@ This architecture supports scalability, modularity, and real-time workflow track
 ---
 
 ## 🚀 Future Improvements
-- Build full-stack workflow application
-- Add real-time dashboard (Power BI / Tableau)
-- Integrate automated validation engine
-- Implement role-based access control
-- Expand reporting and analytics capabilities
+- Build a full-stack workflow application
+- Add dashboard visualizations
+- Implement automated validation checks
+- Add SLA monitoring and alerts
+- Expand analytics for rejection trends
 
 ---
 
