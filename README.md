@@ -3,6 +3,8 @@
 
 > Designed and optimized a compliance-driven business filing workflow using system design principles, requirements engineering, and process improvement techniques.
 
+> 💡 **Impact:** Reduced workflow inefficiencies by redesigning manual processes into a structured, scalable system model.
+
 > ⚠️ **Note:** This project is inspired by real-world operations. All details have been generalized to maintain confidentiality.
 
 ---
@@ -27,7 +29,6 @@ This project demonstrates the ability to bridge **business processes and technic
 
 ## 🧩 Problem
 Manual filing workflows often result in:
-
 - High rejection and resubmission rates  
 - Poor visibility into filing status  
 - Data entry errors and inconsistent validation  
@@ -38,7 +39,6 @@ Manual filing workflows often result in:
 
 ## 💡 Solution
 Designed a centralized workflow system with:
-
 - Standardized intake and processing stages  
 - Automated validation logic  
 - Document version control  
@@ -57,11 +57,22 @@ Designed a centralized workflow system with:
 
 ---
 
-## 📂 Project Deliverables
-- `docs/system-requirements-document.docx` – system requirements documentation  
-- `docs/user-stories-backlog.xlsx` – backlog and user stories  
-- `visuals/as-is-workflow.png` – current-state workflow diagram  
-- `visuals/to-be-workflow.png` – improved workflow diagram  
+## 📂 Project Artifacts
+
+This project includes structured documentation and planning artifacts aligned with the Software Development Life Cycle (SDLC):
+
+- 📄 **System Requirements Document**  
+  Defines system functionality, constraints, and performance requirements  
+  → `docs/system-requirements-document.docx`
+
+- 📊 **User Stories Backlog**  
+  Captures prioritized features and requirements for implementation  
+  → `docs/user-stories-backlog.xlsx`
+
+- 🧭 **Workflow Diagrams**  
+  Visual representation of current and optimized business processes  
+  → `visuals/as-is-workflow.png`  
+  → `visuals/to-be-workflow.png`
 
 ---
 
@@ -95,6 +106,18 @@ This project follows core **SDLC** practices:
 
 ---
 
+## 🧠 Real-World Context
+This system design is based on real-world business filing workflows, where:
+
+- Filings require strict compliance validation  
+- Errors result in rejection and resubmission delays  
+- Tracking is often fragmented across systems  
+- Visibility into status and performance is limited  
+
+This project demonstrates how these operational challenges can be translated into a structured, scalable system design.
+
+---
+
 ## 📋 System Features
 
 ### Functional Features
@@ -125,12 +148,15 @@ This project follows core **SDLC** practices:
 
 ## 💻 Technical Perspective
 This project demonstrates how business workflows can be translated into technical systems.
+
 The design supports implementation as a full-stack application:
 
-- **Backend:** workflow processing and validation  
-- **Database:** filing, document, and status tracking  
-- **Frontend:** intake and tracking interface  
-- **API Layer:** workflow and reporting endpoints  
+- **Frontend:** Filing intake and status tracking  
+- **Backend:** Workflow processing and validation  
+- **Database:** Filing records, documents, audit logs  
+- **API Layer:** Filing management and reporting  
+
+This bridges business process analysis with real-world software development.
 
 ---
 
@@ -178,7 +204,6 @@ The system is designed using a relational database structure:
 - filing_id (Foreign Key)
 - reason
 - timestamp
-
 This schema supports structured data storage, audit tracking, and reporting capabilities.
 
 ---
@@ -189,7 +214,6 @@ This schema supports structured data storage, audit tracking, and reporting capa
 - Database: Structured storage and audit tracking
 - Workflow Engine: Handles status transitions and rules
 - Reporting Layer: Supports operational insights
-
 This architecture supports scalability, modularity, and real-time workflow tracking.
 
 ---
@@ -203,8 +227,10 @@ This architecture supports scalability, modularity, and real-time workflow track
 
 ---
 
-## 💡 What This Project Shows
-- Ability to analyze and improve real-world workflows
-- Strong understanding of system design and SDLC
-- Experience translating business problems into technical solutions
-- Capability to design scalable, implementation-ready systems
+## 💡 Why this matters
+This project demonstrates the ability to:
+- Analyze complex business workflows
+- Design scalable system architectures
+- Translate requirements into technical solutions
+- Apply SDLC principles in real-world scenarios
+It reflects the skillset required for roles in software engineering, systems analysis, and data-driven process improvement.
