@@ -58,7 +58,6 @@ Designed a centralized workflow system with:
 ---
 
 ## 📂 Project Artifacts
-
 This project includes structured documentation and planning artifacts aligned with the Software Development Life Cycle (SDLC):
 
 - 📄 **System Requirements Document**  
@@ -73,6 +72,28 @@ This project includes structured documentation and planning artifacts aligned wi
   Visual representation of current and optimized business processes  
   → `visuals/as-is-workflow.png`  
   → `visuals/to-be-workflow.png`
+
+---
+
+## 📊 Power BI Analytics Expansion
+This project was expanded with Power BI dashboards and operational analytics to visualize filing workflow performance, processing efficiency, rejection trends, and operational bottlenecks using structured business datasets.
+
+- The analytics layer demonstrates how workflow systems can support data-driven operational decision-making and reporting.
+
+Dashboard areas include:
+- Executive workflow overview
+- Filing processing analytics
+- Rejection and resubmission trends
+- Operational bottleneck analysis
+- Filing volume and processing KPIs
+
+📁 Power BI Files
+→ powerbi-dashboard/filing-operations-dashboard.pbix
+
+📁 Dashboard Screenshots
+→ screenshots/executive-dashboard.png
+→ screenshots/operations-analytics.png
+→ screenshots/rejection-trends.png
 
 ---
 
@@ -105,6 +126,19 @@ This project follows core **SDLC** practices:
 - Translated a manual process into an implementation-ready system model  
 
 ---
+
+## 📈 Operational Analytics Insights
+
+The Power BI dashboard layer enables operational reporting and workflow intelligence through:
+
+- Filing processing time analysis
+- Rejection frequency tracking
+- Workflow bottleneck identification
+- Filing volume monitoring
+- Specialist workload visibility
+- OTC vs online submission comparisons
+
+These analytics demonstrate how operational workflow systems can support business intelligence and process optimization initiatives.
 
 ## 🧠 Real-World Context
 This system design is based on real-world business filing workflows, where:
@@ -173,7 +207,6 @@ This API structure demonstrates how the workflow system can be translated into a
 
 ---
 
-
 ## 🗄️ Database Schema (Conceptual)
 
 The system is designed using a relational database structure:
@@ -218,12 +251,42 @@ This architecture supports scalability, modularity, and real-time workflow track
 
 ---
 
+## 📊 Reporting & Analytics Layer
+
+The reporting layer was conceptually expanded using Power BI dashboards and structured operational datasets.
+
+This analytics component supports:
+
+- KPI monitoring
+- Filing workflow visualization
+- Trend analysis
+- Rejection tracking
+- Executive reporting
+- Workflow optimization insights
+
+This demonstrates how operational systems can integrate with modern business intelligence platforms to support data-driven decision-making.
+
+-- 
+
 ## 🚀 Future Improvements
-- Build a full-stack workflow application
-- Add dashboard visualizations
+- Build a full-stack workflow management application
+- Integrate live Power BI reporting dashboards
 - Implement automated validation checks
-- Add SLA monitoring and alerts
-- Expand analytics for rejection trends
+- Add SLA monitoring and operational alerts
+- Expand analytics for rejection and turnaround trends
+- Add user authentication and workflow permissions
+- Integrate real-time workflow tracking APIs
+- Develop predictive analytics for workflow forecasting
+
+---
+
+## 📁 Repository Structure
+
+/datasets → operational filing datasets and analytics data  
+/docs → SDLC documents, requirements, and backlog artifacts  
+/powerbi-dashboard → Power BI dashboard files and reporting layer  
+/screenshots → dashboard previews and analytics visuals  
+/visuals → workflow optimization diagrams and process flows
 
 ---
 
